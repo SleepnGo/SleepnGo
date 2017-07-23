@@ -1,12 +1,12 @@
 package org.kosta.sng.model.vo;
 
-public class reviewReplyVO {
+public class ReviewReplyVO {
 	private int reReplyNo;
 	private ReviewVO reviewVO;
 	private String content;
 	private int parentReNo;
 	private String reReplyDate;
-	public reviewReplyVO(int reReplyNo, ReviewVO reviewVO, String content, int parentReNo, String reReplyDate) {
+	public ReviewReplyVO(int reReplyNo, ReviewVO reviewVO, String content, int parentReNo, String reReplyDate) {
 		super();
 		this.reReplyNo = reReplyNo;
 		this.reviewVO = reviewVO;
