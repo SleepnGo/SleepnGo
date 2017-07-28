@@ -1,5 +1,7 @@
 package org.kosta.sng.model.service;
 
-public class RoomService {
+public interface RoomService {
+
+	Object getAllRoomListByReview();
 
 }
