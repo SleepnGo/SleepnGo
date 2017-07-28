@@ -1,5 +1,7 @@
 package org.kosta.sng.model.dao;
 
-public class RoomDAO {
+public interface RoomDAO {
+
+	Object getAllRoomListByReview();
 
 }

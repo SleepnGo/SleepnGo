@@ -1,11 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <div id="fh5co-wrapper">
 	<div id="fh5co-page">
 		<div id="fh5co-blog-section" class="fh5co-section">
 			<div class="container">
 				<div class="row row-bottom-padded-md">
-					<div class="col-lg-4 col-md-4 col-sm-6">
+				
+				<c:forEach items="rList" var="room">
+					${room}
+				</c:forEach>
+				
+					<!-- <div class="col-lg-4 col-md-4 col-sm-6">
 						<div class="fh5co-blog animate-box">
 							<a href="#"><img class="img-responsive"
 								src="images/place-1.jpg" alt=""></a>
@@ -127,7 +134,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="clearfix visible-md-block"></div>
+					<div class="clearfix visible-md-block"></div> -->
 				</div>
 			</div>
 		</div>
