@@ -16,7 +16,7 @@ insert into ROOM values(seq_roomno.nextval,'java',300,'?',10,10,4,1,1,1,'어서�
 
 select * from room
 
-insert into REVIEW values(SEQ_REVIEWNO.nextval,23,'java','ㅎㅎㅎㅎ',5,sysdate);
+insert into REVIEW values(SEQ_REVIEWNO.nextval,1,'java','ㅎㅎㅎㅎ',5,sysdate);
 
 select * from REVIEW
 

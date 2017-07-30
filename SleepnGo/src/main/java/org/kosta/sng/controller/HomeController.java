@@ -12,13 +12,14 @@ public class HomeController {
 	@Resource(name="roomServiceImpl")
 	private RoomService roomService;
 	
-		@RequestMapping("home.do")
+		//@RequestMapping("home.do")
 		/*public String home(HttpServletRequest request){
 			System.out.println("test");
 			return "home.tiles";
 		}*/
-		
+		@RequestMapping("home.do")
 		public ModelAndView getAllRoomListByReview(){		
+			System.out.println("test                   "+roomService.getAllRoomListByReview());
 			return new ModelAndView("home.tiles","rList",roomService.getAllRoomListByReview());
 		}
 }
