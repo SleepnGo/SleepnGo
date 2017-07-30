@@ -1,5 +1,5 @@
 package org.kosta.sng.model.dao;
 
-public class QnADAO {
+public interface QnADAO {
 
 }

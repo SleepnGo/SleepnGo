@@ -1,5 +1,5 @@
 package org.kosta.sng.model.dao;
 
-public class MessageDAOImpl {
+public class MessageDAOImpl implements MessageDAO{
 
 }

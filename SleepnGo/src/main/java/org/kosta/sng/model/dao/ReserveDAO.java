@@ -1,5 +1,5 @@
 package org.kosta.sng.model.dao;
 
-public class ReserveDAO {
+public interface ReserveDAO {
 
 }

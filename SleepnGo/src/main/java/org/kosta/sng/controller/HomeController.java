@@ -19,7 +19,6 @@ public class HomeController {
 		}*/
 		@RequestMapping("home.do")
 		public ModelAndView getAllRoomListByReview(){		
-			System.out.println("test                   "+roomService.getAllRoomListByReview());
 			return new ModelAndView("home.tiles","rList",roomService.getAllRoomListByReview());
 		}
 }
